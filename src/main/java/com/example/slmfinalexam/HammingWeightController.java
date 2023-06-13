@@ -23,7 +23,7 @@ public class HammingWeightController {
         return calculateHammingWeight(string);
     }
 
-    private int calculateHammingWeight(String string) {
+    public int calculateHammingWeight(String string) {
         previousString = string;
         int count = 0;
         for (char c : string.toCharArray()) {
